@@ -1,0 +1,108 @@
+.card {
+    width: 100%;
+    height: 80vh;
+    overflow-y: auto;
+    background-image: url('https://image.freepik.com/free-vector/seamless-doodle-blog-social-media-applications-pattern-background_98292-4268.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-signout,
+.btn-send {
+    width: 12vh;
+    background-color: #00012da3;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-signout:hover,
+.btn-send:hover {
+    background-color: #00012de6;
+}
+
+.chat-header {
+    padding-bottom: 10px;
+    border-bottom: 0.15rem solid #590c84;
+}
+
+
+.chat-body {
+    margin-top: 0.5rem
+}
+
+.message {
+    margin: .5rem 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.avatar {
+    width: 5vh;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.row.chat {
+    background-color: #23113ecc;
+    border-bottom: 1px solid #5329664a;
+    padding: 0.3rem;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0.5rem;
+}
+
+.chat-message-container {
+    margin-bottom: 0.2rem;
+    padding-left: 2.5rem;
+}
+
+.chat-message {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 0.2rem;
+    color: #fff;
+}
+
+.chat-time {
+    font-size: 0.7rem;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0;
+    font-style: italic;
+    color: #fff;
+}
+
+input.form-control.message {
+    border: 0;
+    border-bottom: 1px solid #5329664a;
+    transition: 0.5s;
+}
+
+/* DEFAULT */
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 -1px 0 #590c84;
+}
