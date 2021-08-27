@@ -8,7 +8,7 @@ import 'firebase/firestore'
 import Channel from './Components/Channel/Channel'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBZ_GY3kMtMJb_CHXU3nmd9HQZom1FJP_M",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "remain-silent.firebaseapp.com",
   projectId: "remain-silent",
   storageBucket: "remain-silent.appspot.com",
