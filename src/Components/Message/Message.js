@@ -8,7 +8,7 @@ const Message = ({
     photoURL = '',
 }) => {
     return <div className="message">
-        <div className="row align-items-center chat">
+        <div className="row align-items-start chat">
             {photoURL ? (
                 <div className="col-md-1 col-1">
                     <div className="avatar">
@@ -18,8 +18,8 @@ const Message = ({
                 </div>
             ) : null}
             {/* {displayName ? <p>{displayName}</p> : null} */}
-            <div className="col-md-11 col-11 chat-message-container">
-                <span className="chat-message">{text}</span>
+            <div className="col-md-10 col-10 chat-message-container">
+                <p className="chat-message">{text}</p>
             </div>
             {created_at?.seconds ? (
                 <span className="chat-time">

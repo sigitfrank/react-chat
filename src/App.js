@@ -14,7 +14,7 @@ const firebaseConfig = {
   storageBucket: "remain-silent.appspot.com",
   messagingSenderId: "1047246121514",
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: "process.env.REACT_APP_MEASUREMENT_ID
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

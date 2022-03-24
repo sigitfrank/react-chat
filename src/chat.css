@@ -1,8 +1,15 @@
+html,
+body {
+    background-image: url('https://img5.goodfon.com/wallpaper/nbig/3/77/gorod-neiuo-zakat-solntse.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 .card {
     width: 100%;
     height: 80vh;
     overflow-y: auto;
-    background-image: url('https://image.freepik.com/free-vector/seamless-doodle-blog-social-media-applications-pattern-background_98292-4268.jpg');
+    background-image: url('./Assets/bg-login.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -70,19 +77,21 @@ ul li {
 }
 
 .chat-message {
-    width: 100%;
-    font-size: 1rem;
-    line-height: 0.2rem;
+    word-break: break-all;
+    font-size: .8rem;
     color: #fff;
 }
 
 .chat-time {
+    width: 100%;
+    margin-top: .25rem;
     font-size: 0.7rem;
-    position: absolute;
+    position: relative;
     right: 0.2rem;
     bottom: 0;
     font-style: italic;
     color: #fff;
+    text-align: right;
 }
 
 input.form-control.message {
